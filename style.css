@@ -129,7 +129,7 @@ main {
     box-shadow: #5B5B5D 0 0 5px;
     display: grid;
     grid-template-columns: 399px;
-    grid-template-rows: 200px 200px 100px;
+    grid-template-rows: 190px 210px 100px;
     grid-template-areas: "logo ubi"
                          "redes ubi"
                          "test ubi";
@@ -146,16 +146,17 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
 }
 .sec3_redes-logos {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 5px;
 }
 .sec3_redes-img {
-    width: 80px;
+    width: 75px;
 }
 .sec3_test {
     grid-area: test;
@@ -185,7 +186,16 @@ main {
     height: 180px;
 }
 footer {
-    height: 700px;
+    height: 400px;
     background-color: #5B5B5D;
     box-shadow: #5B5B5D 0 0 5px;
+}
+.foot {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.footer_texto {
+    color: #aaa;
+    font-size: .85em;
+    padding: 10px 0;
 }
