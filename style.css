@@ -32,7 +32,6 @@ main {
     background-color: #5B5B5D;
     padding: 0 10px;
     font-size: .9rem;
-
 }
 .nav_mid {
     background-color: #fff;
@@ -46,7 +45,16 @@ main {
 .nav_list {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 3px;
+}
+.nav_list a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #5B5B5D;
+}
+.nav_list a:hover {
+    box-shadow: #5B5B5D 0 0 5px;
 }
 .logo {
     height: 100px;
